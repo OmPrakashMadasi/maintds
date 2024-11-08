@@ -1,0 +1,39 @@
+# Node.js dependencies
+/node_modules
+frontend/node_modules
+
+# Build files
+/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Python/Django specific files
+*.pyc
+__pycache__/
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+
+# OS-specific files
+.DS_Store
+
+# Miscellaneous
+*.pem
+*.tgz
+*.zip
+
+# Coverage directory
+coverage/
+
+# Ignore .pack files specifically if needed
+*.pack
